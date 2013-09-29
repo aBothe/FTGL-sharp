@@ -5,6 +5,7 @@ FreeType GL interface/wrapper for .Net/Mono.
 FTGL is used for rendering truetype fonts in OpenGL contexts.
 
 Use the FontWrapper class as following:
+
 	// ... while initializing
 	var font = FontWrapper.LoadFile("..../myFont.ttf");
 	font.FontSize = 20; // * 1/72 inch font size (iirc)
